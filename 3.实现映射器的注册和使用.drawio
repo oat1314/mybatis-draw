@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T15:41:10.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Y99qofj5abTeaFTS21FY" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T14:46:43.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="j-oKaCXPYKUo9kv8Hq__" version="20.4.1" type="github">
   <diagram id="ntSK9yYpymZCnbc-YsIi" name="第 1 页">
     <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
         <mxCell id="SQLN1OdfhrKfak8XEMtt-11" value="IDaoY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="585" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SQLN1OdfhrKfak8XEMtt-12" value="IDaoY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-12" value="IDaoZZ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SQLN1OdfhrKfak8XEMtt-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SQLN1OdfhrKfak8XEMtt-5" target="SQLN1OdfhrKfak8XEMtt-9">
@@ -106,6 +106,68 @@
         </mxCell>
         <mxCell id="SQLN1OdfhrKfak8XEMtt-37" value="注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="405" y="635" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-39" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;SqlSession&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectOne(String statement):T&lt;br&gt;+ selectOne(String statement, Object parameter)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMapper(Class&amp;lt;T&amp;gt; type):T&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1320" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=openThin;endFill=0;" edge="1" parent="1" source="SQLN1OdfhrKfak8XEMtt-40" target="SQLN1OdfhrKfak8XEMtt-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-40" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;SqlSessionFactory&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ openSession()：SqlSession&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1169" width="280" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="SQLN1OdfhrKfak8XEMtt-41" target="SQLN1OdfhrKfak8XEMtt-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="SQLN1OdfhrKfak8XEMtt-41" target="SQLN1OdfhrKfak8XEMtt-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-41" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;SqlSession&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mapperRegistry: MapperRegistry&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectOne(String statement):T&lt;br&gt;+ selectOne(String statement, Object parameter)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMapper(Class&amp;lt;T&amp;gt; type):T&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1520" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;MapperProxyFactory&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mapperInterface:Class&amp;lt;T&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ newInstance(SqlSession sqlSession):T&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1169" width="280" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=openThin;endFill=0;" edge="1" parent="1" source="SQLN1OdfhrKfak8XEMtt-43" target="SQLN1OdfhrKfak8XEMtt-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-43" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;MapperRegistry&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- knownMappers: Map&amp;lt;Class&amp;lt;?&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectOne(String statement):T&lt;br&gt;+ selectOne(String statement, Object parameter)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMapper(Class&amp;lt;T&amp;gt; type):T&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1320" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="SQLN1OdfhrKfak8XEMtt-44" target="SQLN1OdfhrKfak8XEMtt-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="1192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.629;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=openThin;endFill=0;" edge="1" parent="1" source="SQLN1OdfhrKfak8XEMtt-44" target="SQLN1OdfhrKfak8XEMtt-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="736" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-49" value="依赖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SQLN1OdfhrKfak8XEMtt-48">
+          <mxGeometry x="0.4197" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-44" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;DefaultSqlSessionFactory&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- mapperRegistry: MapperRegistry&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ openSqlSession():SqlSession&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1530" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-47" value="实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1275" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-51" value="依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="1265" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-53" value="依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1275" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQLN1OdfhrKfak8XEMtt-55" value="实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1465" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
