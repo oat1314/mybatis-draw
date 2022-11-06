@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-06T14:51:23.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4yEDjHap0DwpgJuAzaZ2" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-06T15:56:41.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="cfX4850sf6_xuQVpuMex" version="20.4.1" type="github">
   <diagram id="c7qtGGyd-daviKtWmJNw" name="第 1 页">
     <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,6 +125,263 @@
         </mxCell>
         <mxCell id="bXOFcnJJQob3LdbZ4P6e-53" value="DB连接池" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="790" y="800" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-94" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1320" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-95" value="&lt;font color=&quot;#000000&quot;&gt;TransactionFactory&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#A1CDFF;fillColor=#dae8fc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-94">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-96" value="" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-94">
+          <mxGeometry width="320" height="30" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-97" value="~ newTransaction(Connection conn)&lt;br&gt;~ newTransaction(DataSource dataSource,&lt;br&gt;TransactionIsolationLevel level,boolean autoCommit);" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-94">
+          <mxGeometry width="320" height="70" relative="1" as="geometry">
+            <mxPoint y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#000000;endArrow=openThin;endFill=0;exitX=1;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bXOFcnJJQob3LdbZ4P6e-94" source="bXOFcnJJQob3LdbZ4P6e-96" target="bXOFcnJJQob3LdbZ4P6e-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-113" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1320" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-114" value="&lt;font color=&quot;#000000&quot;&gt;Transaction&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#A1CDFF;fillColor=#dae8fc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-113">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-115" value="" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-113">
+          <mxGeometry width="320" height="30" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-116" value="~ getConnection()&lt;br&gt;~ commit()&lt;br&gt;~ rollback()&lt;br&gt;~ close()" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-113">
+          <mxGeometry width="320" height="70" relative="1" as="geometry">
+            <mxPoint y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-117" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1520" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-118" value="&lt;font color=&quot;#000000&quot;&gt;JdbcTransactionFactory&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#A1CDFF;fillColor=#dae8fc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-117">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-119" value="" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-117">
+          <mxGeometry width="320" height="30" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-120" value="+newTransaction(Connection conn)&lt;br&gt;+newTransaction(DataSource dataSource,&lt;br&gt;TransactionIsolationLevel,boolean autoCommit);" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-117">
+          <mxGeometry width="320" height="70" relative="1" as="geometry">
+            <mxPoint y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.497;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#000000;endArrow=block;endFill=0;" edge="1" parent="bXOFcnJJQob3LdbZ4P6e-117" source="bXOFcnJJQob3LdbZ4P6e-118" target="bXOFcnJJQob3LdbZ4P6e-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#000000;endArrow=diamond;endFill=1;" edge="1" parent="bXOFcnJJQob3LdbZ4P6e-117" source="bXOFcnJJQob3LdbZ4P6e-120" target="bXOFcnJJQob3LdbZ4P6e-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-121" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1520" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-122" value="&lt;font color=&quot;#000000&quot;&gt;JdbcTransaction&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#A1CDFF;fillColor=#dae8fc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-121">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-123" value="# connetion: Connection&amp;nbsp;&lt;br&gt;# dataSource: DataSource&lt;br&gt;# level&lt;br&gt;# autoCommit: boolean" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-121">
+          <mxGeometry width="320" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-124" value="+ getConnection()&lt;br&gt;+ commit()&lt;br&gt;+ rollback()&lt;br&gt;+ close()" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-121">
+          <mxGeometry width="320" height="70" relative="1" as="geometry">
+            <mxPoint y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-134" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;endArrow=block;endFill=0;exitX=1.006;exitY=0.414;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bXOFcnJJQob3LdbZ4P6e-121" source="bXOFcnJJQob3LdbZ4P6e-123" target="bXOFcnJJQob3LdbZ4P6e-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1.071;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#000000;endArrow=block;endFill=0;" edge="1" parent="bXOFcnJJQob3LdbZ4P6e-121" source="bXOFcnJJQob3LdbZ4P6e-122" target="bXOFcnJJQob3LdbZ4P6e-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#000000;startArrow=diamondThin;startFill=1;endArrow=diamond;endFill=1;" edge="1" parent="bXOFcnJJQob3LdbZ4P6e-121" target="bXOFcnJJQob3LdbZ4P6e-148">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="135" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-125" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1490" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-126" value="&lt;font color=&quot;#000000&quot;&gt;DataSourceFactory&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#A1CDFF;fillColor=#dae8fc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-125">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-127" value="" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-125">
+          <mxGeometry width="320" height="30" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-128" value="~ setProperties(Properties props)&lt;br&gt;~ getDataSource()" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-125">
+          <mxGeometry width="320" height="70" relative="1" as="geometry">
+            <mxPoint y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-135" value="依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1540" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-138" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1680" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-139" value="&lt;font color=&quot;#000000&quot;&gt;DruidDataSourceFactory&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#A1CDFF;fillColor=#dae8fc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-138">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-140" value="" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-138">
+          <mxGeometry width="320" height="30" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-141" value="~ setProperties(Properties props)&lt;br&gt;~ getDataSource()" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-138">
+          <mxGeometry width="320" height="70" relative="1" as="geometry">
+            <mxPoint y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;endArrow=block;endFill=0;exitX=0.5;exitY=-0.067;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="bXOFcnJJQob3LdbZ4P6e-139" target="bXOFcnJJQob3LdbZ4P6e-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="1660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-146" value="实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="1635" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="bXOFcnJJQob3LdbZ4P6e-147" target="bXOFcnJJQob3LdbZ4P6e-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-147" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1770" width="320" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-148" value="&lt;font color=&quot;#000000&quot;&gt;Environment&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#A1CDFF;fillColor=#dae8fc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-147">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-149" value="-id :String&amp;nbsp;&lt;br&gt;-transactionFactory: TransactionFactory&lt;br&gt;-dataSource: DataSource" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-147">
+          <mxGeometry width="320" height="60" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-150" value="" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-147">
+          <mxGeometry width="320" height="60" relative="1" as="geometry">
+            <mxPoint y="86" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-161" value="依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1330" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-163" value="实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1480" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-165" value="实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1470" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-171" value="组合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1675" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-176" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1790" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-177" value="&lt;font color=&quot;#000000&quot;&gt;TyprAliaRegistry&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#A1CDFF;fillColor=#dae8fc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-176">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-178" value="-TYPE_ALIASES:Map&amp;lt;String,Class&amp;lt;?&amp;gt;&amp;gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-176">
+          <mxGeometry width="320" height="50" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-179" value="+registerAlias(String alias,Class&amp;lt;?&amp;gt; value)&lt;br&gt;+resolveAlias(String string)" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-176">
+          <mxGeometry width="320" height="60" relative="1" as="geometry">
+            <mxPoint y="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.475;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=diamond;endFill=1;" edge="1" parent="bXOFcnJJQob3LdbZ4P6e-176" target="bXOFcnJJQob3LdbZ4P6e-181">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint y="170" />
+              <mxPoint x="-318" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-180" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2000" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-181" value="&lt;font color=&quot;#000000&quot;&gt;Configuration&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#d79b00;fillColor=#ffe6cc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-180">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-182" value="#environment:Environment&lt;br&gt;#mapperRegistry: MapperRegistry&lt;br&gt;#mappedStatements:Map&amp;lt;String, MappedStatement&amp;gt;" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-180">
+          <mxGeometry width="320" height="70" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-183" value="+addMapper(Class&amp;lt;T&amp;gt; type)&lt;br&gt;+addMappedStatement(MappedStatement ms)&lt;br&gt;+setEnvironment(Environment environment)" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-180">
+          <mxGeometry width="320" height="60" relative="1" as="geometry">
+            <mxPoint y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-184" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="2000" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-185" value="&lt;font color=&quot;#000000&quot;&gt;TyprAliaRegistry&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#d79b00;fillColor=#ffe6cc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-184">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-186" value="-root:Element" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-184">
+          <mxGeometry width="320" height="50" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-187" value="+parse() :Configuration&lt;br&gt;-environmentsElement(Element context)&lt;br&gt;-mapperElement(Element mappers)" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-184">
+          <mxGeometry width="320" height="60" relative="1" as="geometry">
+            <mxPoint y="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-188" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#FFFFFF;fontColor=#000000;glass=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2240" width="320" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-189" value="&lt;font color=&quot;#000000&quot;&gt;DefaultSqlSession&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;strokeColor=#d79b00;fillColor=#ffe6cc;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=center;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-188">
+          <mxGeometry width="320" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-190" value="-configuration:Configuration" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-188">
+          <mxGeometry width="320" height="50" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-191" value="+selectOne(String statement):T&lt;br&gt;+selectOne(String statement,Object parameter):T&lt;br&gt;+getMapper(Class&amp;lt;T&amp;gt; type):T" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;fontColor=inherit;html=1;shadow=0;dashed=0;perimeter=none;whiteSpace=wrap;resizeWidth=1;align=left;spacing=10;glass=0;sketch=1;" vertex="1" parent="bXOFcnJJQob3LdbZ4P6e-188">
+          <mxGeometry width="320" height="60" relative="1" as="geometry">
+            <mxPoint y="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-210" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;dashed=1;" edge="1" parent="bXOFcnJJQob3LdbZ4P6e-188" source="bXOFcnJJQob3LdbZ4P6e-189" target="bXOFcnJJQob3LdbZ4P6e-183">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="-20" />
+              <mxPoint x="160" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-194" value="组合" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1945" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;exitX=0.003;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bXOFcnJJQob3LdbZ4P6e-187" target="bXOFcnJJQob3LdbZ4P6e-183">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="2110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-211" value="依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="495" y="2115" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXOFcnJJQob3LdbZ4P6e-212" value="依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="2190" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
