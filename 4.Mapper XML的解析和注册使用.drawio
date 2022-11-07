@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T15:48:10.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KIesd4dzb6VsCJ-WAcKZ" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T12:35:45.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7luzFbbx5dgZwDT4_yiI" version="20.4.1" type="github">
   <diagram id="WSA3ocsTXWFhmiPBerEU" name="第 1 页">
     <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
         <mxCell id="cjFZimA0ZkYGRu65Da8S-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="cjFZimA0ZkYGRu65Da8S-42" target="cjFZimA0ZkYGRu65Da8S-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cjFZimA0ZkYGRu65Da8S-42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;DefaultSqlSession&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- configutation:Configuration&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectOne(String statement):T&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ selectOne(String statement,Object parameter):T&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMapper(Class&amp;lt;T&amp;gt; type):T&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=0;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="cjFZimA0ZkYGRu65Da8S-42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;DefaultSqlSession&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- configutation:Configuration&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ openSession():SqlSession&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;glass=0;sketch=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="1320" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="cjFZimA0ZkYGRu65Da8S-44" value="依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -140,8 +140,8 @@
         <mxCell id="cjFZimA0ZkYGRu65Da8S-46" value="依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="565" y="1345" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cjFZimA0ZkYGRu65Da8S-48" value="依赖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="685" y="1065" width="50" height="30" as="geometry" />
+        <mxCell id="cjFZimA0ZkYGRu65Da8S-48" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1070" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
